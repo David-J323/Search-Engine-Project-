@@ -1,0 +1,35 @@
+.searching {
+  background-color: #FFFFBC;
+  position: relative; }
+
+.search-title {
+  color: #BAAACE;
+  font-family: "Oxygen";
+  font-size: 3em; }
+
+.search-description {
+  color: #BAAACE;
+  font-family: "Oxygen";
+  font-size: 1.5em; }
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr; }
+
+.gif-section {
+  position: relative;
+  overflow: hidden;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  width: 100%; }
+
+.gif-section > img {
+  margin-top: 20px;
+  margin-bottom: 20px; }
