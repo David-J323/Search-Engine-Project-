@@ -1,0 +1,19 @@
+.search-field{
+    color: $secondary-color;
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 12px;
+    border-style: none;
+}
+
+.search-button {
+    background-color: $secondary-color;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-bottom: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-style: none;
+}

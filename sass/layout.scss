@@ -1,25 +1,10 @@
 .container {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-}
-
-.gif-section {
-    position: relative;
-    overflow: hidden;
-    margin-left: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: auto;
-    width: 100%;
-}
-
-.gif-section > img {
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 

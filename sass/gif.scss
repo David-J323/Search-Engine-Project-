@@ -1,0 +1,16 @@
+.gif-section {
+    position: relative;
+    overflow: hidden;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    
+}
+
+.gif-section > img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: auto;
+}

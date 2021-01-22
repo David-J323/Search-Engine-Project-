@@ -1,0 +1,35 @@
+.top-nav {
+    background-color: $secondary-color;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.home {
+    position: absolute;
+    font-family: $type;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+    
+}
+
+.nav-list {
+    position: relative;
+    margin-top: 30px;
+    color: white;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: right;
+}
+
+.nav-items {
+    position: relative;
+    font-family: $type;
+    font-size: 1em;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
