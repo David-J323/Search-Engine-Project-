@@ -21,8 +21,13 @@
     color: white;
     list-style: none;
     display: grid;
-    grid-template-columns: 1fr;
-    justify-items: right;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-start: 3;
+    justify-items: center;
+    @include small-and-over {
+        grid-template-columns: 1fr;
+        justify-items: right;
+    }
 }
 
 .nav-items {
@@ -32,4 +37,9 @@
     margin-top: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.nav-items > a {
+    color: white;
+    text-decoration: none;
 }

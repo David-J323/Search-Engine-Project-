@@ -5,15 +5,33 @@
     margin-bottom: 20px;
     padding: 12px;
     border-style: none;
+    border-radius: 25px;
+    width: 300px;
+    @include small-and-over {
+        width: auto;
+    }
 }
 
 .search-button {
+    position: absolute;
     background-color: $secondary-color;
     color: white;
     font-size: 1.2em;
     font-weight: 700;
     margin-bottom: 50px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    margin-top: 212px;
+    margin-left: 340px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     border-style: none;
+    border-radius: 25px;
+    width: 200px;
+    @include small-and-over {
+        position: relative;
+        width: auto;
+        margin-top: 0px;
+        margin-left: 0px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
 }
